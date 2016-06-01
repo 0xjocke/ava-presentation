@@ -1,0 +1,6 @@
+test(t => {
+    const value = true
+    t.true(value)
+    t.deepEqual(value, {})
+    t.is(value, {})
+})

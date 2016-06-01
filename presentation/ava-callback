@@ -1,0 +1,11 @@
+import test from 'ava'
+test.cb('Read file test', t => {
+  fs.readFile('data.txt', (err, data) => {
+    t.is(data, 'hello world')
+    t.end()
+  })
+})
+
+test.cb('Read file test', t => {
+  fs.readFile('data.txt', t.end)
+})

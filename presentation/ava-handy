@@ -1,0 +1,6 @@
+test.only(t => {
+    const value = true
+    t.true(value)
+})
+
+test.todo('Test the legacy code as well.')

@@ -15,6 +15,7 @@
     ],
     "babel": "inherit",
     "failFast": true,
-    "tap": true
+    "tap": true,
+    "match":"*foo"
   }
 }
